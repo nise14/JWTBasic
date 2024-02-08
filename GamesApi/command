@@ -1,0 +1,7 @@
+dotnet user-jwts create
+
+dotnet user-jwts create --role "admin"
+
+dotnet user-jwts create --role "player" -n Player1
+
+dotnet user-jwts create --role "player" -n Player1 --claim "subscription=gold"
